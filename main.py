@@ -4,7 +4,7 @@
 
 print("Hola Mundo!")
 
-#VARIABLES
+#TIPOS DE DATOS
 texto= "Aprendiendo Python"
 nombre="Aneudy Patiño"
 year= 40
