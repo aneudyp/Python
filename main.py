@@ -68,3 +68,8 @@ print(familia) #imprime todo el listado
 
 #Imprime la posicion dentro de la lista 0,1,2,3,4,n
 print(familia[0]) #Imprime: Aneudy
+
+#BUCLE FOR
+#La variable Persona captura el valor de Familia y lo imprime hasta que finalice
+for persona in familia:
+    print(persona)
