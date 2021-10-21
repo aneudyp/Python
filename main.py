@@ -25,4 +25,46 @@ if Altura >= 180:
 else:
 	print("Eres bajito!")
 
+#FUNCIONES
 
+def MostrarAltura():
+    Altura = 170.18
+    if Altura >= 180:
+        print("Eres una persona alta!")
+    else:
+        print("Eres bajito!")
+
+#Llamar funcion
+MostrarAltura()
+
+#ENVIANDO PARAMETROS
+
+VarAltura= int(input("Cúal es tu altura (cm)?: "))
+def MostrarAltura(Altura):
+    if Altura >= 180:
+        print("Eres una persona alta!")
+    else:
+        print("Eres bajito!")
+
+MostrarAltura(VarAltura)
+
+#EXTRAER DATO DE FUNCION
+
+
+def MostrarAltura(Altura):
+    resultado= "" 
+    if Altura >= 180:
+        print("Eres una persona alta!")
+    else:
+        print("Eres bajito!")
+    return resultado
+
+print(MostrarAltura(VarAltura))
+
+#LISTAS
+    
+familia= ["Aneudy", "Paula", "Kylian", "Annelys", "Mia"]
+print(familia) #imprime todo el listado
+
+#Imprime la posicion dentro de la lista 0,1,2,3,4,n
+print(familia[0]) #Imprime: Aneudy
